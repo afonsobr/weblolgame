@@ -1,0 +1,96 @@
+.chat {
+  display: none;
+  background-image: url(../images/layout/chatbg.png);
+  position: fixed;
+  bottom: 0;
+  right: 75px;
+  width: 300px;
+  height: 400px;
+  border: 0px solid #000000;
+  border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border: 1px #c3c3c3 solid;
+  z-index: 102;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, .2);
+  background: rgba(0, 0, 0, .5);
+  color: white;
+}
+
+#page-wrap {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  background: none;
+}
+
+#chat-wrap {
+  text-align: left;
+}
+
+#chat-area {
+  height: 320px;
+  overflow: auto;
+  border: 1px solid #666;
+  padding: 20px;
+  font-size: 12px;
+}
+
+#chat-area span {
+  padding: 4px 8px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 8px;
+  margin: 0 5px 0 0;
+}
+
+#chat-area p {}
+
+#name-area {
+  height: 30px;
+  padding-top: 5px;
+  font: bold 12px "Lucida Grande", Sans-Serif;
+  text-align: right;
+  color: black;
+  text-align: center;
+}
+
+#name-area span {
+  color: whitesmoke;
+}
+
+#sendie {
+  width: 100%;
+  font: 12px "Lucida Grande", Sans-Serif;
+  height: 30px;
+  padding: 10px;
+  background: none;
+  color: white;
+  border: 0px;
+}
+
+.chatTextFromYou {
+  position: relative;
+  padding: 5px;
+  margin: 5px;
+  right: 0;
+  color: #000;
+  border-radius: 10px;
+  color: white;
+  background: #f3961c;
+  text-align: left;
+}
+
+.chatTextFromMe {
+  position: relative;
+  padding: 5px;
+  margin: 5px;
+  right: 0;
+  color: #000;
+  border-radius: 10px;
+  color: black;
+  background: #ffffff;
+  text-align: right;
+}
+
+
+/*///////////////////////////////////////////////////////CHAT//////////////////////////////////////////////////////////////////////*/

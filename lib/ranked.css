@@ -1,0 +1,132 @@
+.loadingRanked {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/layout/ranked.png);
+  background-position: center;
+  z-index: 102;
+}
+
+.loadingRankedTable {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loadingRankedTable td {
+  border: 1px #fff dashed;
+}
+
+.playerFace {
+  width: 50px;
+  height: 50px;
+  background-image: url(../images/icons/ProfileIcon001.jpg);
+  background-size: contain;
+  position: absolute;
+  left: 44px;
+  bottom: 6px;
+}
+
+.playerNick {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  bottom: 60px;
+  color: black;
+  text-shadow: 1px 0px 0px rgba(255, 255, 255, 1), 0px 1px 0px rgba(255, 255, 255, 1), -1px 0px 0px rgba(255, 255, 255, 1), 0px -1px 0px rgba(255, 255, 255, 1);
+}
+
+.championFace {
+  width: 138px;
+  height: 250px;
+  background-image: url(../images/champions2/Aatrox.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.bordap1 {
+  width: 138px;
+  height: 250px;
+  background-image: url(../images/borders/normal.png);
+  background-size: cover;
+  position: relative;
+}
+
+.bordap2 {
+  width: 138px;
+  height: 250px;
+  background-image: url(../images/borders/normal.png);
+  background-size: cover;
+  position: relative;
+  border: 1px #fff dashed;
+}
+
+.bordap3 {
+  width: 138px;
+  height: 250px;
+  background-image: url(../images/borders/normal.png);
+  background-size: cover;
+  position: relative;
+}
+
+.bordap4 {
+  width: 138px;
+  height: 250px;
+  background-image: url(../images/borders/normal.png);
+  background-size: cover;
+  position: relative;
+}
+
+.bordap5 {
+  width: 138px;
+  height: 250px;
+  background-image: url(../images/borders/normal.png);
+  background-size: cover;
+  position: relative;
+}
+
+.bordap6 {
+  width: 138px;
+  height: 250px;
+  background-image: url(../images/borders/normal.png);
+  background-size: cover;
+  position: relative;
+}
+
+.bordap7 {
+  width: 138px;
+  height: 250px;
+  background-image: url(../images/borders/normal.png);
+  background-size: cover;
+  position: relative;
+}
+
+.bordap8 {
+  width: 138px;
+  height: 250px;
+  background-image: url(../images/borders/normal.png);
+  background-size: cover;
+  position: relative;
+}
+
+.bordap9 {
+  width: 138px;
+  height: 250px;
+  background-image: url(../images/borders/normal.png);
+  background-size: cover;
+  position: relative;
+}
+
+.bordap10 {
+  width: 138px;
+  height: 250px;
+  background-image: url(../images/borders/normal.png);
+  background-size: cover;
+  position: relative;
+}

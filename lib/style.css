@@ -1,0 +1,357 @@
+body {
+  background: url(../images/layout/bg.png) no-repeat top;
+  background-color: rgb(0, 0, 0) !important;
+  margin: 10px 10px 10px 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  position: relative;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.st0 {
+  background-image: url(../images/layout/topFrame.png);
+  background-position: center;
+  width: 1038px;
+  min-width: 1038px;
+  height: 99px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 70px;
+  padding: 10px 5px 10px 5px;
+  pointer-events: none;
+  z-index: 100;
+}
+
+.st1 {
+  background-image: url(../images/layout/midFrame.png);
+  background-position: center;
+  width: 1038px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 100px;
+  z-index: 99;
+}
+
+.st2 {
+  background-image: url(../images/layout/botFrame.png);
+  background-position: center;
+  width: 1038px;
+  min-width: 1038px;
+  height: 91px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -162px;
+  padding: 10px 5px 10px 5px;
+  pointer-events: none;
+  z-index: 100;
+}
+
+.inside_st1 {
+  background: #f2f2f2;
+  z-index: 98;
+  padding-top: 15px;
+  width: 972px;
+  margin: auto;
+}
+
+.inTab {
+  padding: 10px 5px 10px 5px;
+}
+
+.infos {
+  display: inline-block;
+  position: relative;
+  padding: 10px 10px 10px 10px;
+  border: 0px;
+  width: 100%;
+}
+
+.subInfo {
+  min-height: 100px;
+}
+
+.subInfo2Disabled {
+  position: relative;
+  pointer-events: none;
+  opacity: 0.5;
+  margin-top: 0px;
+}
+
+.subInfo2Abled {
+  position: relative;
+  margin-top: 0px;
+}
+
+.face {
+  background: #eaeaea;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  float: left;
+  border: 1px #fff;
+  border-style: dashed;
+}
+
+.level {
+  background: black;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: white;
+  width: 20px;
+  text-align: center;
+}
+
+.moreInfo {
+  background: transparent;
+  position: relative;
+  float: left;
+  height: 100px;
+  padding: 10px 10px 10px 10px;
+}
+
+.moreInfoText {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding: 5px 5px 5px 5px;
+  text-transform: uppercase;
+}
+
+.nav-button {
+  display: inline-block;
+  width: 100%;
+}
+
+#nav-button {
+  float: left;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.footer {
+  position: relative;
+  clear: both;
+  text-align: center;
+  color: white;
+}
+
+.footer a {
+  color: #d0d0d0;
+}
+
+.footer a:hover {
+  color: #2ab500;
+}
+
+.footerImg
+{
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 80px;
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  pointer-events: none;
+}
+
+#demo-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: -100;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.namiDiv {
+  width: 100%;
+  height: 250px;
+  background-image: url(../images/layout/nami.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  pointer-events: none;
+  z-index: 101;
+}
+
+.braumDiv {
+  width: 100%;
+  height: 200px;
+  background-image: url(../images/layout/braum.png);
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  pointer-events: none;
+  z-index: 101;
+}
+
+.patchVersion {
+  color: #ff4b4b;
+  text-transform: capitalize;
+}
+
+.champImg {
+  width: 50px;
+}
+
+.iprpImg {
+  height: 14px;
+}
+
+.championTable td {
+  padding: 5px 5px 5px 5px;
+}
+
+.masteryImg {
+  width: 56px;
+  position: absolute;
+  top: 12px;
+  right: 85px;
+}
+
+.masteryDiv2 {
+  position: relative;
+  margin-left: auto;
+  width: 56px;
+  height: 100px;
+  background-image: url(../images/mastery/Mastery0.png);
+  background-size: cover;
+  padding-top: 8px;
+}
+
+.masteryDiv {
+  position: relative;
+  margin-right: auto;
+  width: 56px;
+  height: 100px;
+  background-image: url(../images/mastery/Mastery0.png);
+  background-size: cover;
+  padding-top: 8px;
+}
+
+.matchResult {
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.resultText {
+  color: black;
+  text-shadow: 1px 0px 0px rgba(255, 255, 255, 1), 0px 1px 0px rgba(255, 255, 255, 1), -1px 0px 0px rgba(255, 255, 255, 1), 0px -1px 0px rgba(255, 255, 255, 1);
+}
+
+.maintenance {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-position: center;
+  text-align: center;
+  color: white;
+}
+
+.titulo {
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+  color: #c73036;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.profileBanner {
+  width: 100%;
+  background-image: url(../images/layout/profilebanner.png);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  font-size: 20px;
+}
+
+.controlBar {
+  width: 100%;
+  background: #040507 url(https://cdn.leagueoflegends.com/riotbar/prod/1.6.20/images/bar/bg-bar.jpg?1467311907) repeat 50% 0;
+  position: fixed;
+  height: 40px;
+  top: 0;
+  left: 0;
+  color: #cfba6b;
+  z-index: 101 ;
+}
+
+.buttonLoL,
+.buttonLoL:visited {
+  color: #222222;
+  border-color: #f6c653 #bd6a23 #b6631f #e8ab4a;
+  background: #d79922 url("../images/layout/lol-textures.jpg") no-repeat 50% -846px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 3px;
+  width: auto;
+  font-family: "Adobe Garamond Pro", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 6px 20px 4px 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+.riot-button-btt {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6REQ5NzdENTZFQzU3MTFFMzgwNDFGNUZBRjcyRDA4RkEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6REQ5NzdENTdFQzU3MTFFMzgwNDFGNUZBRjcyRDA4RkEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpERDk3N0Q1NEVDNTcxMUUzODA0MUY1RkFGNzJEMDhGQSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpERDk3N0Q1NUVDNTcxMUUzODA0MUY1RkFGNzJEMDhGQSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PmpaqgUAAAEPSURBVHja7NYxCoMwFAbgv+nkIrhZEAQHZ1ePUMghhPYUTk7i4hF6Gz2Fc6mLZ2hNaQuFUqj2lUb+Hx4JmfK9JJCV1noL4DDWBnbmNNZOWY7Abe8HZTnigVFYSAghhBBCCCGEEEIIIYSQr8TzPNR1jSRJ7IUYRFmWiOMYeZ6LY5QkIggCDMMAx3HEMUoS0bYtsiy7jtKY9Xj0hRSiqqrretM0CMMQURQhTVN0XYe+7/8TYjpdFAV8339C3CON+QrEIMy1cV33JeIXmNmQO8K8gXcIacwsyKcIScxkyFSEFGYSZC5CArPSWp/51yKEEEIIIYQQQgghhBBCCCFkWZDTAhy9gezNxGLEcazdRYABAALskwSMs7plAAAAAElFTkSuQmCC);
+  position: fixed;
+  display: block;
+  right: 20px;
+  bottom: 20px;
+  height: 50px;
+  width: 50px;
+  min-width: 50px;
+  min-height: 50px;
+  opacity: 0;
+  z-index: 101;
+}
+
+
+/* Make the button appear or dissapear with a fade in/out effect */
+
+.riot-button-btt {
+  transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -webkit-transition: opacity .5s ease-in-out;
+}
+
+.riot-button-btt:hover {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RTRBM0I3NzVFQzU3MTFFMzk3RkZFOEFBODUzRTU4NUIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RTRBM0I3NzZFQzU3MTFFMzk3RkZFOEFBODUzRTU4NUIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpFNEEzQjc3M0VDNTcxMUUzOTdGRkU4QUE4NTNFNTg1QiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFNEEzQjc3NEVDNTcxMUUzOTdGRkU4QUE4NTNFNTg1QiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PofgrhsAAAENSURBVHja7NYxCoMwFAbgv+niIrhIEQQHV3HyHD1B5nbTxcnJO7j1SF7CsdTFI7SmtIVCKVT7SiP/D488MuV7JJCV1noL4DDWBnbmNNZOWY7A7ewHZTnigVFYSAghhBBCCCGEEEIIIYSQr8TzPNR1jSRJ7IUYRFVViOMYRVGIY5QkIggCDMMAx3HEMUoS0bYt8jy/rtKYdZqmtRSiaZrrvunDMEQURciyDF3Xoe/7/4SYSZdlCd/3nxD3SGO+AjEIc21c132J+AVmNuSOMG/gHUIaMwvyKUISMxkyFSGFmQSZi5DArLTWZ/61CCGEEEIIIYQQQgghhBBCCFkW5LQAR28ge9NYjDiOtbsIMACqyZMY6FXs2gAAAABJRU5ErkJggg==);
+}
+
+
